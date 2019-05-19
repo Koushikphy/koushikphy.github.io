@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Koushik Naskar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/prof.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hi There."
   location         : "Kolkata, India"
   email            :
@@ -286,6 +286,17 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  #_pages
+  - scope:
+      path: ""
+      type: pages
     values:
       layout: single
       author_profile: true
