@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px;
+    }
+
+    img{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        margin-bottom: 3pc;
+    }
+    img {
+    transition:transform 0.25s ease;
+    }
+
+    .col1 img:hover {
+    -webkit-transform:scale(1.2); /* or some other value */
+    transform:scale(1.2) translateX(9%)
+    }
+
+    .col2 img:hover {
+    -webkit-transform:scale(1.2); /* or some other value */
+    transform:scale(1.2) translateX(-9%)
+    }
+
+    h2, h1{
+        text-align: center;
+        padding-bottom: 1pc
+    }
+
+
+    p{
+        font-size: 1.3pc
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+
+    .row {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+
+<body>
+
+    <h1>Gallery</h1>
+
+    <div class="row">
+        <div class="column col1">
+            <p>Work with multiple files</p>
+            <img src="../images/ide/multi.png">
+            <p>Configure plot properties interactively</p>
+            <img src="../images/ide/color.png">
+            <p> Toggle axis of projection</p>
+            <img src="../images/ide/axis.png">
+            <p> Fill missing values</p>
+            <img src="../images/ide/missing.png">
+            <p> Plot lines in linear mode</p>
+            <img src="../images/ide/linear.png">
+            <p> 3D surface plot</p>
+            <img src="../images/ide/surf.png">
+            <p> Spreadsheet editor</p>
+            <img src="../images/ide/spread.png">
+        </div>
+        <div class="column col2">
+            <p> Edit any one or mutiple points </p>
+            <img src="../images/ide/drag.png">
+            <p>Configure plot properties interactively</p>
+            <img src="../images/ide/background.png">
+            <p> Set lables and title with LaTeX</p>
+            <img src="../images/ide/latex2.png">
+            <p> Repeat or Mirror data</p>
+            <img src="../images/ide/extend.png">
+            <p> Plot line in spline mode</p>
+            <img src="../images/ide/spline.png">
+            <p> 3D wireframe plot</p>
+            <img src='../images/ide/wire.png'>
+            <p> Swap Data</p>
+            <img src="../images/ide/swap.png">
+        </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

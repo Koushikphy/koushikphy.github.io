@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Koushik Naskar"
-  avatar           : "/images/prof.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/base/prof.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hi there..."
   location         : "Kolkata, India"
   email            :
@@ -136,16 +136,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://facebook.com/koushik.naskar3"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/koushik.naskar3"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/Koushikphy"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url:https://gitlab.com/Koushikphy
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
