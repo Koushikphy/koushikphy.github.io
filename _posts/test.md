@@ -1,0 +1,100 @@
+---
+title: "Interactive Data Editor"
+tags: [plot, graph, interactive plotting, data editing, smoothing]
+date: 2019-05-19
+toc: true
+excerpt: "A Software to interactively edit data in a graphical manner"
+---
+
+
+<!-- 
+    <div style="text-align: center;">
+        <div style="font-weight: bold;font-size: xx-large; margin-top:9px">Interactive Data Editor</div>
+        <div style="font-size: large;font-style: italic;margin-top: 5px;margin-bottom: 5px;">A Software to interactively
+            edit data in a graphical manner.</div>
+         <img src='../images/ide/start.gif'>
+    </div> -->
+
+
+<center>
+# Interactive Data Editor  
+#### A Software to interactively  edit data in a graphical manner.
+</center>
+
+        <p>
+            We all work with data every day. Depending on the source, your data may not always be regular, smooth and
+            uniform. Obviously you cant just change your result as you desire, but sometimes you can smooth out that
+            spiky or irregular portion. This software lets you do those editing very easily in a graphical way including
+            many others useful data operation.
+        </p>
+        ## Main Features
+        <div class="block" style='font-style: italic;text-shadow : 0 0 0 '>
+            1. Edit one or multiple points by dragging with mouse and keyboard keys.<br>
+            2. Automatically smooth data using spline and linear Kernel smoother.<br>
+            3. Supports both 2D and 3D data.<br>
+            4. Simultaneously work with multiple data.<br>
+            5. Fully configurable plot winodow with LaTeX rendering support.<br>
+            6. Drag & Drop files to load data.<br>
+            7. Fill missing values.<br>
+            8. Repeat or mirror data any required times.<br>
+            9. Filter data subject to given condition.<br>
+            10. Swap data between two line or surface.<br>
+            11. Comapre data with the initial one as you edit.<br>
+            12. Supports undo/redo.<br>
+            13. Change sign any selected part of the data.<br>
+            14. A general 3D plotter.<br>
+            15. A powerful spreadsheet editor with all basic excel like feature.<br>
+            16. And many more...<br>
+        </div>
+        ## Gallery
+        <div class="block">
+            <a href="../postlinks/gallery.html">Check out the software in action.</a>
+        </div>
+        ## Changelog
+        <div class="block">
+            <a href="https://github.com/Koushikphy/Interactive-Data-Editor/releases">Changelog and older versions.</a>
+        </div>
+        <h2>Download & Installation</h2>
+        <div class="block">
+            Download the latest version of the sofware appropriate for your system from the links below. Windows
+            users
+            download the msi (preffered) or exe installer. If you are on any Linux distro, download the AppImage,
+            make
+            it executable and run it, no installation required. Ubuntu/Debian users can install the debian installer
+            too.
+            <div style="font-style:italic; margin-left:13px; margin-top:9px">
+                <b>Windows</b>(<a
+                    href='https://github.com/Koushikphy/Interactive-Data-Editor/releases/download/v2.5.0/Interactive.Data.Editor.2.5.0.exe'>.exe</a>,
+                <a
+                    href='https://github.com/Koushikphy/Interactive-Data-Editor/releases/download/v2.5.0/Interactive.Data.Editor.2.5.0.msi'>.msi</a>
+                )<br>
+                <b>Linux</b> &ensp;&ensp;(<a
+                    href='https://github.com/Koushikphy/Interactive-Data-Editor/releases/download/v2.5.0/Interactive.Data.Editor.2.5.0.AppImage'>.AppImage</a>,
+                <a
+                    href='https://github.com/Koushikphy/Interactive-Data-Editor/releases/download/v2.5.0/interactive_data_editor_2.5.0_amd64.deb'>.deb</a>)
+                <br>
+            </div>
+        </div>
+
+
+        <h2>Feedback </h2>
+        <div class="block">
+            I would really like to hear your experience of using this software. Found a bug or want a new
+            feature to
+            include! Just open a new <a href='https://github.com/Koushikphy/Interactive-Data-Editor/issues'>issue</a> on
+            github or contact the author directly at <a href='https://www.facebook.com/koushik.naskar3'>facebook</a> or
+            <a href='mailto:koushik.naskar9@gmail.com'>gmail</a>.
+        </div>
+        <h2>Copyright and license </h2>
+        <div class="block">
+            Copyright &copy; Feb 2019, Koushik Naskar. All rights reserved.<br>
+
+            Licensed under the <a
+                href='https://github.com/Koushikphy/Interactive-Data-Editor/blob/master/LICENSE'>MIT</a>
+            License.
+        </div>
+
+
+
+
+
