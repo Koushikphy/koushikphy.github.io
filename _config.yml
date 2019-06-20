@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Koushik Naskar"
   avatar           : "/images/base/prof.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "😏"
+  bio              : "   😎🤨😏"
   location         : "Kolkata, India"
   email            :
   links:
@@ -127,6 +127,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Koushikphy"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: https://gitlab.com/Koushikphy
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
