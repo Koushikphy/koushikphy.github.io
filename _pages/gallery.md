@@ -1,3 +1,9 @@
+---
+title : "Gallery"
+permalink: /ide/gallery.html
+author_profile: true
+---
+
 <!DOCTYPE html>
 <html>
     <head>
