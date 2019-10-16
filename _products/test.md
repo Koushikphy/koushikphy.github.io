@@ -1,6 +1,6 @@
 ---
 title: "Test"
-excerpt: "Just a test"
+excerpt: "Test Products"
 collection: products
 ---
-test done
+Coming Soon...
