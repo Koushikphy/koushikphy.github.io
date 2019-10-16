@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-{% for post in site.coop %}
+{% for post in site.products %}
   {% include archive-single.html %}
 {% endfor %}
 
