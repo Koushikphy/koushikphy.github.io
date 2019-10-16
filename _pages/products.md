@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Coops"
-permalink: /coops/
+title: "Products"
+permalink: /products/
 author_profile: true
 redirect_from:
-  - /coops
+  - /products
 ---
 
 {% include base_path %}

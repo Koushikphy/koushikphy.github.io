@@ -283,7 +283,7 @@ compress_html:
     envs: development
 
 collections:
-  coop:
+  products:
     output: true
     permalink: /:collection/:path/
 
@@ -312,10 +312,10 @@ defaults:
       comments: # true
       share: false
       related: true
-  # _coop
+  # _products
   - scope:
       path: ""
-      type: coop
+      type: products
     values:
       layout: single
       author_profile: true
