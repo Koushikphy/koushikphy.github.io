@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /blogs/
-title: "Blogs"
+title: "Posts"
 classes: wide
 author_profile: true
 toc: true
