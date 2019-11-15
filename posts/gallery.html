@@ -23,6 +23,8 @@
     .pop {
     transition:transform 0.25s ease;
     background:white;
+    border: 1px solid black;
+    margin-top: 5px;
     }
 
     .col1 .pop:hover {
@@ -42,7 +44,8 @@
 
 
     p{
-        font-size: 1.3pc
+    font-size: 1.3pc;
+    border-bottom: 2px solid black;
     }
 
     .column {
@@ -84,7 +87,7 @@
             </div>
             <div class="pop">
                 <p>Remove bad data points</p>
-                <video><source src="../videos/ide/fill.mp4" type="video/mp4"></video>
+                <video><source src="../videos/ide/remdat.mp4" type="video/mp4"></video>
             </div>
             <div class="pop">
                 <p> 3D surface plots</p>
@@ -103,7 +106,7 @@
             </div>
             <div class="pop">
                 <p>Export image in five different format in any resolution </p>
-                <video><source src="videos/saveimg.mp4" type="video/mp4"></video>
+                <video><source src="../videos/ide/saveimg.mp4" type="video/mp4"></video>
             </div>
             <div class="pop">
                 <p> Fit any function to the data </p>
@@ -115,7 +118,7 @@
             </div>
             <div class="pop">
                 <p>Set values of selected data points</p>
-                <video><source src="../videos/ide/repm.mp4" type="video/mp4"></video>
+                <video><source src="../videos/ide/setval.mp4" type="video/mp4"></video>
             </div>
             <div class="pop">
                 <p> 3D wireframe plot</p>
@@ -134,6 +137,7 @@
     videos.attr('loop','loop')
     videos.attr('controls','controls')
     videos.attr('width', '100%')
+    videos.attr('height','550')
     $(".pop").hover( hoverVideo, hideVideo );
     function hoverVideo(e) { $('video', this).get(0).play()}
     
