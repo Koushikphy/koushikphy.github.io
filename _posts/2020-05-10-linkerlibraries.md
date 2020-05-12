@@ -36,4 +36,4 @@ ln -s /path_to_file/libfftw.so.3.5.1 /path_available_to_linker/libfftw.so
 ```
 Now the linker utility will easily find the symolic link and from there the actual library files.  
 ##### Useful Links:
-https://linux.die.net/man/1/ld
+<a href='https://linux.die.net/man/1/ld'>https://linux.die.net/man/1/ld</a>
