@@ -9,7 +9,7 @@ toc_sticky: true
 
 
 ## COVID-19 Tracker
-#### _A chrome/firefox extension to quickly track the latest statistics regarding the Coronavirus disease._
+_A chrome/firefox extension to quickly track the latest statistics regarding the Coronavirus disease._
 
 
 <img src='../images/covidb/screenshot.png'>  
