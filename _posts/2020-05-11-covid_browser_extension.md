@@ -23,11 +23,11 @@ This extension uses real time statistics from worldmeters (API: <a href='https:/
 ## Installation
 ### Chrome
 The extension is not available is chrome webstore (Sorry didn't want to pay $5). So, you have to use this in developer mode. Download this repo then,   
-Go to <a href='chrome://extensions'>chrome://extensions</a>  > Enable developer mode > 
+Go to `chrome://extensions` > Enable developer mode > 
 Load unpack extension > load this repo folder.  
 
 ### Firefox
-Go to <a href='about:debugging#/runtime/this-firefox'>about:debugging#/runtime/this-firefox</a> > Load Temporary Add-on... > Load the `manifest.json`
+Go to `about:debugging#/runtime/this-firefox` > Load Temporary Add-on... > Load the `manifest.json`
 
 ## Project Link
 <a href='https://github.com/Koushikphy/COVID19-Browser-Extension'>https://github.com/Koushikphy/COVID19-Browser-Extension</a>
