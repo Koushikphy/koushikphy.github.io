@@ -1,16 +1,16 @@
 ---
 layout: archive
-title: "Products"
-permalink: /products/
+title: "Projects"
+permalink: /projects/
 author_profile: true
 redirect_from:
-  - /products
+  - /projects
 ---
 
 {% include base_path %}
 
 
-{% for post in site.products %}
+{% for post in site.projects %}
   {% include archive-single.html %}
 {% endfor %}
 
