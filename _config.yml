@@ -312,10 +312,10 @@ defaults:
       comments: # true
       share: false
       related: true
-  # _products
+  # _projects
   - scope:
       path: ""
-      type: products
+      type: projects
     values:
       layout: single
       author_profile: true
