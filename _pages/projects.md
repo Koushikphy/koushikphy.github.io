@@ -6,19 +6,35 @@ date: 2020-08-01
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row1:
-  - image_path: ../images/ide/axis.png
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
+  - image_path: ../images/ide/screenshot.gif
+    alt: "Interactive Data Editor"
+    title: "Interactive Data Editor"
+    excerpt: 'A Software to interactively edit data in a graphical manner.'
+    url: "https://koushikphy.github.io/ide/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: ../images/ide/files.gif
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+  - image_path: ../images/ide/screenshot.gif
+    alt: "COVID-19 Browser extension"
+    title: "COVID-19 Browser extension"
+    excerpt: 'A chorme/firefox extension to quickly get information about Coronavirus disease'
+    url: "https://github.com/Koushikphy/COVID19-Browser-Extension"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: ../images/ide/screenshot.gif
+    alt: "FORTRAN 77 to Fortran 90 converter"
+    title: "FORTRAN 77 to Fortran 90 converter"
+    excerpt: 'Convert your old FORTRAN 77 to properly indented Fortran 90 code'
+    url: "https://github.com/Koushikphy/FORTRAN77_to_Fortran90"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: ../images/ide/screenshot.gif
+    alt: "YouTube Detox"
+    title: "YouTube Detox"
+    excerpt: 'Curb your youtube addiction'
+    url: "https://github.com/Koushikphy/YouTubeDetox"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 ---
@@ -28,3 +44,7 @@ feature_row2:
 {% include feature_row id="feature_row1" type="left" %}
 
 {% include feature_row id="feature_row2" type="right" %}
+
+{% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row4" type="right" %}

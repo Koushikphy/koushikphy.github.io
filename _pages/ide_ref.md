@@ -40,8 +40,6 @@ HI tehre
 
 
 
-
-
 ## Load File  
 Directly load data from text file from `File > Open File`. For 3D data select the required `X/Y` value from the provied slider or scrolling inside the plot. If you want to add multiple data set from other files, you can load them through `File > Add File`. You can use the recent files menu to quickly load any of the last recent 10 files.
 <video width="1000" height="510" controls="controls">
