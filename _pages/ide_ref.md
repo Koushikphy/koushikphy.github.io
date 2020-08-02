@@ -9,6 +9,6 @@ classes: wide
 ---
 fbefwebgweubgeugbeug 
 HI tehre
-<video controls="controls">
+<video  width="480" height="320" controls="controls">
   <source src="../videos/ide/3d_viewer.mp4" type="video/mp4">
 </video>
