@@ -37,6 +37,14 @@ feature_row4:
     url: "https://github.com/Koushikphy/YouTubeDetox"
     btn_label: "Learn More"
     btn_class: "btn--primary"
+feature_row5:
+  - image_path: ../images/ide/screenshot.gif
+    alt: "ADT"
+    title: "ADT"
+    excerpt: 'A parallelized software package to work with Adiabatic to Diabatic Transformation in Beyond Born-Oppenheimer theory'
+    url: "https://github.com/AdhikariLAB/ADT-Program"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row %}
@@ -48,3 +56,5 @@ feature_row4:
 {% include feature_row id="feature_row3" type="left" %}
 
 {% include feature_row id="feature_row4" type="right" %}
+
+{% include feature_row id="feature_row5" type="left" %}
