@@ -4,7 +4,7 @@ layout: single
 permalink: /ide_quick_refrence/
 author_profile: false
 toc: true
-toc_sticky: true
+toc_sticky: false
 ---
 
 <!-- 
