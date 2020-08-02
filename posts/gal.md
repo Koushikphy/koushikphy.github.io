@@ -2,7 +2,7 @@
 title: "Interactive Data Editor Reference"
 layout: single
 classes: wide
-permalink: /ide_quick_refrence/
+permalink: /gal.html
 author_profile: false
 toc: true
 ---
