@@ -1,10 +1,10 @@
 ---
 title: "Interactive Data Editor Reference"
 layout: single
-classes: wide
 permalink: /ide_quick_refrence/
 author_profile: false
 toc: true
+toc_sticky: true
 ---
 
 <video controls="controls">
