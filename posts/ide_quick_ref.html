@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Data Editor - Quick Reference</title>
+    <style>
+        body{
+            font-size: 21px;
+            margin: 0 10% 0 10%;
+            text-align: justify;
+        }
+        p{
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Data Editor</h1>
+    <h2 id="documentation">Documentation, Quick Reference and FAQs</h2>
+    
+    <ul>
+        <li><a href="#load-file">Load data from file</a> </li>
+        <li><a href="#3d-viewer">3D Viewer</a>  </li>
+        <li><a href="#edit-data">Edit data</a>
+            <ul>
+                <li><a href="#drag-with-mouse">Drag with mouse</a>  </li>
+                <li><a href="#drag-with-keyboard">Move with keyboard</a>  </li>
+                <li><a href="#smooth-with-spline">Smooth with spline</a>  </li>
+                <li><a href="#smooth-with-mooving-average">Smooth with moving average</a>  </li>
+                <li><a href="#smooth-with-regression">Smooth with regression</a>  </li>
+                <li><a href="#smoothing-multiple-datasets-simultaneously">Smooth multiple data</a> </li>
+                <li><a href="#set-required-value">Set required value</a>  </li>
+                <li><a href="#remove-bad-data-points">Remove bad data</a>  </li>
+            </ul>
+        </li>
+        <li><a href="#interpolate-data">Interpolate data</a></li>
+        <li><a href="#extend-ata">Extend data, mirror or repeat</a></li>
+        <li><a href="#data-fitting">Data fitting</a>  
+            <ul>
+                <li><a href="#polynomial-regressing-fitting">Polynomial regression</a>  </li>
+                <li><a href="#lavenberg-marqardett-fitting">Lavenberg-Marquardett fitting</a>  </li>
+            </ul>
+        </li>
+        <li><a href="#swap-data">Swap Data</a>  </li>
+        <li><a href="#undo-redo">UnDo ReDo</a>  </li>
+        <li><a href="#plot-settings">Plot settings</a>  </li>
+        <li><a href="#export-as-image">Export plot as image</a>  </li>
+        <li><a href="#work-with-spreadsheet">Work with spreadsheet</a>  </li>
+        <li><a href="#work-with-the-3d-plotter">Work 3D plotter</a>  </li>
+    </ul>
+
+
+
+    <h2 id="load-file">Load File</h2>
+    <p>
+        Directly load data from text file from <code>File &gt; Open File</code>. 
+        For 3D data select the required <code>X/Y</code> value from the provied slider or scrolling inside the plot. 
+        If you want to add multiple data set from other files, you can load them through <code>File &gt; Add File</code>. 
+        You can use the recent files menu to quickly load any of the last recent 10 files.
+    </p>
+    <video width="1000" height="540" controls="controls" autoplay>
+        <source src="../videos/ide/file_load.mp4" type="video/mp4">
+    </video>
+    <!-- <div align="right">
+        <b><a href="#documentation">#back to top</a></b>
+    </div> -->
+
+
+    <h2 id="3d-viewer">3D Viewer</h2>
+    <p>
+        For easy editing 3D data files, a 2D projection for a particular <code>X/Y</code> value. 
+        To view the complete 3D plot open the 3D viewer window through the <code>Window &gt; 3D Plot Viewer</code>. 
+        The viewer updates in real time as you make updates in the main window.
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/3d_viewer.mp4" type="video/mp4">
+    </video>
+
+    
+
+    <h2 id="edit-data">Edit data</h2>
+    <p>
+        This software features different data editing options, available to use thourgh keyboard shortcuts 
+        and also through the right click context menu 
+    </p>
+
+        <h3 id="drag-with-mouse">Move with mouse or keyboard</h3>
+        <p>
+            Move any data points just dragging it mouse. By defualt data points is movable only in vertical direction (i.e. y-axis). 
+            Check the <code>Edit &gt; Points movable horaizontally</code> to move them in x-axis too. 
+            To drag multiple data points simultaneously and drag any of them. 
+            Also keyboard navigation keys can also be ued to move selected data points. 
+            Although this option is available only for mooving in y-axis.
+        </p>
+        <video width="1000" height="540" controls="controls">
+            <source src="../videos/ide/edit_data.mp4" type="video/mp4">
+        </video>
+
+        <h3 id="smooth-with-spline">Smooth out data</h3>
+        <p>
+            Select data points that you want to smooth and press <code>D</code>. 
+            The data points will be replaced with a smoothing spline approximation
+            Select data points that you want to smooth and press <code>D</code> or <code>M</code> or <code>E</code>
+            to replace the data points 
+            with a smoothing spline approximation or moving average or by quadratic regression respectively. 
+            Bad data points can also be romeved or set by required value
+        </p>
+        <video width="1000" height="540" controls="controls">
+            <source src="../videos/ide/data_edit_2.mp4" type="video/mp4">
+        </video>
+
+
+        <h3 id="smoothing-multiple-datasets-simultaneously">Smoothing multiple datasets simultaneously</h3>
+        <p>
+            At any moment all data editing feature is only available for a single dataset. 
+            But the primary dataset for edit can be quickly toggled through the <code>Plot utility</code> 
+            button or by pressing <code>Ctrl+TAB</code>
+        </p>
+        <video width="1000" height="540" controls="controls">
+            <source src="../videos/ide/mulit_edit.mp4" type="video/mp4">
+        </video>
+
+    <h2 id="interpolate-data">Interpolate data</h2>
+    <p>
+        Use interpolation to fill missing grid values or make the grid denser or 
+        vice-versa through <code>Edit &gt; Fill values</code>
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/interpolate.mp4" type="video/mp4">
+    </video>
+
+    <h2 id="extend-data">Extend Data</h2>
+    <p>
+        Extend your dataset by repeating or mirroring. 
+        This can be applied globally
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/extend.mp4" type="video/mp4">
+    </video>
+
+    <p> 
+        or locally
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/mirror_2.mp4" type="video/mp4">
+    </video>
+
+    <h2 id="data-fitting">Data fitting</h2>
+    <p>
+        (Only) 2D data set can be fitted thorugh two types of fitting  
+    </p>
+        <h3 id="polynomial-regressing-fitting">Polynomial regressing fitting</h3>
+        <p>
+            Use <code>Fitting &gt; Polynomial Regression fitting</code>
+        </p>
+        <video width="1000" height="540" controls="controls">
+            <source src="../videos/ide/rgfit.mp4" type="video/mp4">
+        </video>
+
+        <h3 id="lavenberg-marqardett-fitting">Lavenberg-Marqardett fitting</h3>
+        <p>
+            Use <code>Fitting &gt; Lavenberg-Marqardett fitting</code>
+        </p>
+        <video width="1000" height="540" controls="controls">
+            <source src="../videos/ide/lmfit.mp4" type="video/mp4">
+        </video>
+
+
+        <h2 id="swap-data">Swap data</h2>
+        <p>
+            To swap data values between two data sets open swapper mode by 
+            <code>View &gt; Toggle Swapper</code>
+        </p>
+        <video width="1000" height="540" controls="controls">
+            <source src="../videos/ide/swapper.mp4" type="video/mp4">
+        </video>
+
+    <h2 id="undo-redo">UnDo ReDo</h2>
+    <p>
+        You can undo or redo last 10 changes by pressing <code>Ctrl+Z</code> 
+        or <code>ShiftCtrl+Z</code>
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/undo-redo.mp4" type="video/mp4">
+    </video>
+
+    <h2 id="plot-settings">Plot settings</h2>
+    <p>
+        To make any changes to the plot option/style like marker/line styles, 
+        font styles, open the setting window <code>View &gt; Open Plot Settings</code>
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/settings.mp4" type="video/mp4">
+    </video>
+
+    <h2 id="export-as-image">Export as image</h2>
+    <p>
+        Save your plot in different format and resolution. 
+        Use <code>File &gt; Export as image</code> or the camera sign on the plot corner
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/export.mp4" type="video/mp4">
+    </video>
+
+
+
+    <h2 id="work-with-spreadsheet">Work with spreadsheet</h2>
+    <p>
+        Open a spreadsheet containing the current data set through <code>Window &gt; Spreadsheet</code>. 
+        You can directly make changes to the data set
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/spreadsheet.mp4" type="video/mp4">
+    </video>
+
+
+    <h2 id="work-with-the-3d-plotter">Work with the 3D Plotter</h2>
+    <p>
+        A 3D plotter is also provided to quickly plot 3D data sets
+    </p>
+    <video width="1000" height="540" controls="controls">
+        <source src="../videos/ide/plotter.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

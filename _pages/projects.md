@@ -14,7 +14,7 @@ feature_row1:
     btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: ../images/ide/screenshot.gif
+  - image_path: ../images/covidb/screenshot.png
     alt: "COVID-19 Browser extension"
     title: "COVID-19 Browser extension"
     excerpt: 'A chorme/firefox extension to quickly get information about Coronavirus disease'
@@ -22,7 +22,7 @@ feature_row2:
     btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: ../images/ide/screenshot.gif
+  - image_path: ../images/f77to90/screenshot.png
     alt: "FORTRAN 77 to Fortran 90 converter"
     title: "FORTRAN 77 to Fortran 90 converter"
     excerpt: 'Convert your old FORTRAN 77 to properly indented Fortran 90 code'
@@ -30,7 +30,7 @@ feature_row3:
     btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: ../images/ide/screenshot.gif
+  - image_path: ../images/ide/screenshot1.gif
     alt: "YouTube Detox"
     title: "YouTube Detox"
     excerpt: 'Curb your youtube addiction'
@@ -38,7 +38,7 @@ feature_row4:
     btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row5:
-  - image_path: ../images/ide/screenshot.gif
+  - image_path: ../images/ide/screenshot1.gif
     alt: "ADT"
     title: "ADT"
     excerpt: 'A parallelized software package to work with Adiabatic to Diabatic Transformation in Beyond Born-Oppenheimer theory'
