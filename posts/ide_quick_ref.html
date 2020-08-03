@@ -24,30 +24,25 @@
         <li><a href="#3d-viewer">3D Viewer</a>  </li>
         <li><a href="#edit-data">Edit data</a>
             <ul>
-                <li><a href="#drag-with-mouse">Drag with mouse</a>  </li>
-                <li><a href="#drag-with-keyboard">Move with keyboard</a>  </li>
-                <li><a href="#smooth-with-spline">Smooth with spline</a>  </li>
-                <li><a href="#smooth-with-mooving-average">Smooth with moving average</a>  </li>
-                <li><a href="#smooth-with-regression">Smooth with regression</a>  </li>
-                <li><a href="#smoothing-multiple-datasets-simultaneously">Smooth multiple data</a> </li>
-                <li><a href="#set-required-value">Set required value</a>  </li>
-                <li><a href="#remove-bad-data-points">Remove bad data</a>  </li>
+                <li><a href="#drag">Drag with mouse or keyboard</a>  </li>
+                <li><a href="#smooth-out">Smooth out data</a>  </li>
+                <li><a href="#smoothing-multiple">Smooth multiple data simultaneously</a> </li>
             </ul>
         </li>
         <li><a href="#interpolate-data">Interpolate data</a></li>
-        <li><a href="#extend-ata">Extend data, mirror or repeat</a></li>
+        <li><a href="#extend-data">Extend data, mirror or repeat</a></li>
         <li><a href="#data-fitting">Data fitting</a>  
             <ul>
-                <li><a href="#polynomial-regressing-fitting">Polynomial regression</a>  </li>
-                <li><a href="#lavenberg-marqardett-fitting">Lavenberg-Marquardett fitting</a>  </li>
+                <li><a href="#rg-fitting">Polynomial regression</a>  </li>
+                <li><a href="#lm-fitting">Lavenberg-Marquardett fitting</a>  </li>
             </ul>
         </li>
         <li><a href="#swap-data">Swap Data</a>  </li>
         <li><a href="#undo-redo">UnDo ReDo</a>  </li>
         <li><a href="#plot-settings">Plot settings</a>  </li>
         <li><a href="#export-as-image">Export plot as image</a>  </li>
-        <li><a href="#work-with-spreadsheet">Work with spreadsheet</a>  </li>
-        <li><a href="#work-with-the-3d-plotter">Work 3D plotter</a>  </li>
+        <li><a href="#spreadsheet">Work with spreadsheet</a>  </li>
+        <li><a href="#3d-plotter">Work 3D plotter</a>  </li>
     </ul>
 
 
@@ -59,7 +54,7 @@
         If you want to add multiple data set from other files, you can load them through <code>File &gt; Add File</code>. 
         You can use the recent files menu to quickly load any of the last recent 10 files.
     </p>
-    <video width="1000" height="540" controls="controls" autoplay>
+    <video width="1000" height="540" controls="controls" controls loop>
         <source src="../videos/ide/file_load.mp4" type="video/mp4">
     </video>
     <!-- <div align="right">
@@ -85,7 +80,7 @@
         and also through the right click context menu 
     </p>
 
-        <h3 id="drag-with-mouse">Move with mouse or keyboard</h3>
+        <h3 id="drag">Move with mouse or keyboard</h3>
         <p>
             Move any data points just dragging it mouse. By defualt data points is movable only in vertical direction (i.e. y-axis). 
             Check the <code>Edit &gt; Points movable horaizontally</code> to move them in x-axis too. 
@@ -97,7 +92,7 @@
             <source src="../videos/ide/edit_data.mp4" type="video/mp4">
         </video>
 
-        <h3 id="smooth-with-spline">Smooth out data</h3>
+        <h3 id="smooth-out">Smooth out data</h3>
         <p>
             Select data points that you want to smooth and press <code>D</code>. 
             The data points will be replaced with a smoothing spline approximation
@@ -111,7 +106,7 @@
         </video>
 
 
-        <h3 id="smoothing-multiple-datasets-simultaneously">Smoothing multiple datasets simultaneously</h3>
+        <h3 id="smoothing-multiple">Smoothing multiple datasets simultaneously</h3>
         <p>
             At any moment all data editing feature is only available for a single dataset. 
             But the primary dataset for edit can be quickly toggled through the <code>Plot utility</code> 
@@ -150,7 +145,7 @@
     <p>
         (Only) 2D data set can be fitted thorugh two types of fitting  
     </p>
-        <h3 id="polynomial-regressing-fitting">Polynomial regressing fitting</h3>
+        <h3 id="rg-fitting">Polynomial regressing fitting</h3>
         <p>
             Use <code>Fitting &gt; Polynomial Regression fitting</code>
         </p>
@@ -158,14 +153,13 @@
             <source src="../videos/ide/rgfit.mp4" type="video/mp4">
         </video>
 
-        <h3 id="lavenberg-marqardett-fitting">Lavenberg-Marqardett fitting</h3>
+        <h3 id="lm-fitting">Lavenberg-Marqardett fitting</h3>
         <p>
             Use <code>Fitting &gt; Lavenberg-Marqardett fitting</code>
         </p>
         <video width="1000" height="540" controls="controls">
             <source src="../videos/ide/lmfit.mp4" type="video/mp4">
         </video>
-
 
         <h2 id="swap-data">Swap data</h2>
         <p>
@@ -205,7 +199,7 @@
 
 
 
-    <h2 id="work-with-spreadsheet">Work with spreadsheet</h2>
+    <h2 id="spreadsheet">Work with spreadsheet</h2>
     <p>
         Open a spreadsheet containing the current data set through <code>Window &gt; Spreadsheet</code>. 
         You can directly make changes to the data set
@@ -215,7 +209,7 @@
     </video>
 
 
-    <h2 id="work-with-the-3d-plotter">Work with the 3D Plotter</h2>
+    <h2 id="3d-plotter">Work with the 3D Plotter</h2>
     <p>
         A 3D plotter is also provided to quickly plot 3D data sets
     </p>
