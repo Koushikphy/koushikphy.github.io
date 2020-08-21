@@ -21,12 +21,12 @@ The available paths to the linker utility can be checked by debugging `ld`. Run
 ld --verbose | grep SEARCH_DIR
 ```  
 
-## Common problem: cannot find `-lfftw`
-One very common problem we face while linking libraries is, it fails to link the library, while the library is installed properly. It happens beacuse the linker can not file in available path or the library is installed with different names. If the file is not available in the default path then its quite easy to provide the path with `-L`. But if the file is installed with different name usually, with a version name at the end, then its probably best to create a symbolic link of the file at a proper location.  
+## Common problem: cannot find `-lfftw3`
+One very common problem we face while linking libraries is, it fails to link the library, while the library is installed properly. It happens beacuse the linker can not find the file in available path or the library is installed with different names. If the file is not available in the default path then its quite easy to provide the path with `-L`. But if the file is installed with different name usually, with a version name at the end, then its probably best to create a symbolic link of the file at a proper location.  
 ### 1. Finding the installed files
-Before creating the symbolic link, we need to find location and name of the file, installed as a library. If we know then library is `fftw` then the file name must be `libfftw.so` or something very similar, like this `libfftw.so.3.5.1`, the number at the end being the version number. So, simply search for this file in your system
+Before creating the symbolic link, we need to find location and name of the file, installed as a library. If we know then library is `fftw3` then the file name must be `libfftw3.so` or something very similar, like this `libfftw3.so.3.5.1`, the number at the end being the version number. So, simply search for this file in your system
 ```
-find / -name libfftw.so* -type f
+find / -name libfftw* -type f
 ```
 and note the location and full name of the file.  
 ### 2. Creating symbolic link
